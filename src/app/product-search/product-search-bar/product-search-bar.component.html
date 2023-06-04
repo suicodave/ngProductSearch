@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="searchKey" (keyup.enter)="onSearch()">
+
+
+<button (click)="onSearch()" [disabled]="disabled">Search</button>
